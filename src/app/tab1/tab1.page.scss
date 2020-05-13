@@ -1,0 +1,42 @@
+.banner{
+    position: relative;
+    background: url("https://streamingsbrasil.com/wp-content/uploads/2020/05/Netflix-4%C2%B0-temporada-Anne.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    padding: 15px;
+
+    .info-banner{
+        position: absolute;
+        bottom: 15px;
+
+        h2, p{
+            color: azure;
+        }
+
+        h2{
+            font-size: 20px;
+            margin: 0;
+            font-weight: normal;
+        }
+
+        p{
+            font-size: 12px;
+            margin: 0;
+            font-weight: 15px;
+        }
+    }
+}
+ion-grid{
+    position: absolute;
+    top: 180px;
+
+    h1{
+        font-size: 20px;
+        font-weight: bolder;
+        margin-bottom: 5px;
+        color: #7e7e7a;
+    }
+}

@@ -1,17 +1,71 @@
-<ion-header [translucent]="true">
+<ion-header color="primary">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Filmes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content color="dark">
+ <div class="banner">
+   <div class="info-banner">
+     <h2>Anne with an "e"</h2>
+    <p>2019 &nbsp;&nbsp; 12 &nbsp;&nbsp; 3 temporadas</p>
+    <ion-button color="danger" size="small">ASSISTIR</ion-button>
+    <ion-button fill="outline" color="light" size="small">EPISÓDIOS</ion-button>
+   </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+ </div>
+
+ <ion-grid>
+   <h1>Populares</h1>
+  <ion-row>
+
+    <ion-col>
+      <img src="https://image.tmdb.org/t/p/w220_and_h330_face/8KkyXE7Hd9MPOOkORxkMM6SUXAB.jpg">
+    </ion-col>
+
+    <ion-col>
+      <img src="https://image.tmdb.org/t/p/w220_and_h330_face/kY0ET33EoiJhjaPCzzvywCDqP6b.jpg">
+    </ion-col>
+
+  </ion-row>
+
+  <h1>Em cartaz</h1>
+  <ion-row>
+  <ion-col>
+    <img src="https://image.tmdb.org/t/p/w220_and_h330_face/zEae3Y5gB7e8Z3LZWsMWZcrsf92.jpg">
+  </ion-col>
+
+  <ion-col>
+    <img src="https://image.tmdb.org/t/p/w220_and_h330_face/htwqnN0zyM1zpY9DgO7dWwq4m2S.jpg">
+  </ion-col>
+
+</ion-row>
+
+<h1>Próximas estreias</h1>
+  <ion-row>
+  <ion-col>
+    <img src="https://image.tmdb.org/t/p/w220_and_h330_face/mDt3GkephI5yrRsEgLfdo3MYxyj.jpg">
+  </ion-col>
+
+  <ion-col>
+    <img src="https://image.tmdb.org/t/p/w220_and_h330_face/niyXFhGIk4W2WTcX2Eod8vx2Mfe.jpg">
+  </ion-col>
+
+</ion-row>
+
+<h1>Mais bem avaliados</h1>
+  <ion-row>
+  <ion-col>
+    <img src="https://image.tmdb.org/t/p/w220_and_h330_face/2RKjFMIlb3UmvUtxeM1uzS0WMhG.jpg">
+  </ion-col>
+
+  <ion-col>
+    <img src="https://image.tmdb.org/t/p/w220_and_h330_face/igw938inb6Fy0YVcwIyxQ7Lu5FO.jpg">
+  </ion-col>
+
+</ion-row>
+
+ </ion-grid>
 </ion-content>
